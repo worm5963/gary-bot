@@ -20,14 +20,14 @@ const client = new Client({
 client.login(process.env.DISCORD_TOKEN);
 
 // DON'T TOUCH THIS PART!!! IT WORKS!!!
-client.on("messageCreate", async (message) => {
+// client.on("messageCreate", async (message) => {
 
-    console.log(message)
+//     console.log(message)
 
-    if (!message?.author.bot) {
-        message.channel.send(`Hi Sam${message.content}`);
-    }
-});
+//     if (!message?.author.bot) {
+//         message.channel.send(`Hi Sam${message.content}`);
+//     }
+// });
 
 client.on("voiceStateUpdate", (oldState, newState) => {
     let oldChannel = oldState.channel;
