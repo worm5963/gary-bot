@@ -1,0 +1,30 @@
+{
+    "name":"fu",
+    "description":"1.0.0",
+    "options": [
+        {
+            "name":"--help",
+            "description":"Display help for command",
+            "type": 1,
+            "required": true
+        },
+        {
+            "name":"-l",
+            "description":"Loud",
+            "type": 1,
+            "required":"false"
+        },
+        {
+            "name":"-t",
+            "description":"Times to repeat",
+            "type": 4,
+            "required":"false"
+        },
+        {
+            "name":"-u",
+            "description":"yes",
+            "type": 6,
+            "required": true
+        }
+    ]
+}

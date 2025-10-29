@@ -1,0 +1,4 @@
+https://discord.com/api/v8/applications/<bot_id>/commands
+Bot Id: 1432758780206252173
+
+https://discord.com/api/v8/applications/1432758780206252173/commands
