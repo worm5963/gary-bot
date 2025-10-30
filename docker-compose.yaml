@@ -1,0 +1,11 @@
+services:
+  server:
+    build:
+      context: .
+      target: dev
+    ports:
+      - "3000:3000"
+    environment:
+      NODE_END: production
+    volumes:
+      - ./src:/usr/src/app/src
