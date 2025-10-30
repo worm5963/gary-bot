@@ -1,11 +1,9 @@
 services:
-  server:
-    build:
-      context: .
-      target: dev
+  gary-bot:
+    build: .
+    container_name: gary-bot-1
     ports:
       - "3000:3000"
-    environment:
-      NODE_END: production
-    volumes:
-      - ./src:/usr/src/app/src
+    env_file:
+      - ./src/.env
+    restart: unless-stopped
