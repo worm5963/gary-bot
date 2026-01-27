@@ -1,0 +1,14 @@
+[
+  {
+    "id": "sixSeven",
+    "patterns": ["\\b67\\b", "six\\s+seven", "six\\s+or\\s+seven", "6\\s+or\\s+7"]
+  },
+  {
+    "id": "fortyTwo",
+    "patterns": ["\\b42\\b"]
+  },
+  {
+    "id": "gary",
+    "patterns": ["\\bGary\\b"]
+  }
+]
