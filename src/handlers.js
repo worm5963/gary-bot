@@ -17,3 +17,7 @@ export async function fortyTwo({ message }) {
 export async function gary({ message}) {
   await message.reply("I heard my name; how can I help you today?")
 }
+
+export async function sixNine({message}) {
+	await message.reply("nice.")
+}

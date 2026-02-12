@@ -10,5 +10,9 @@
   {
     "id": "gary",
     "patterns": ["\\bGary\\b"]
+  },
+  {
+	"id": "sixNine",
+	"patterns": ["\\b69\\b", "sixty\\s+nine" ]
   }
 ]
