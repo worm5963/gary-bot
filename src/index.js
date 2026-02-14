@@ -3,7 +3,7 @@ import { Client, GatewayIntentBits, TextChannel } from 'discord.js'
 import detectCommand from "./dispatcher.js";
 import * as handlers from "./handlers.js";
 
-console.log("Gary Version 1.0.2 Launching")
+console.log("Gary Version 1.0.3 Launching")
 
 dotenv.config()
 

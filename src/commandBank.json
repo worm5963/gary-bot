@@ -14,5 +14,9 @@
   {
 	"id": "sixNine",
 	"patterns": ["\\b69\\b", "sixty\\s+nine" ]
+  },
+  {
+    "id": "kys",
+    "patterns": ["\\bkys\\b", "kill\\s+yourself"]
   }
 ]
